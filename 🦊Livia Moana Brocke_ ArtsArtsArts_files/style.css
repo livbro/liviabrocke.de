@@ -3,7 +3,6 @@ h1, h2, h3 {
 	font-size: 60px;
 	margin: 0;
 
-
 }
 
 /*image width in css ändern: gilt für ALLE imgs! weil alle bilder den tag img haben. in html direkt daneben schreiben*/
@@ -26,35 +25,18 @@ padding: 20px;
 margin: 20px;
 padding-right: 0px;
 padding-top: 20px;
-margin-top: -100px;
+margin-top: -10px;
 margin-right: -10px;
 margin-left: -10px;
 
 
  }
 
-  .zoomin img {
-  -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 0.5s ease;
-
-  }
-  .zoomin img:hover {
-  	width: 500px;
-  	height: 450px;
-}
-
- .name {height: 500px;
- 		margin-left: 500px;
-
- 		} /*livia moana brocke*/
-
  body {background: #ff961a;}
 
 
 .hi {margin-top: 40px;
- 	margin-left: 70px;}/*man muss dem element ne klasse geben um das element aufzurufen in css*/
+ 	margin-left: 50px;}/*man muss dem element ne klasse geben um das element aufzurufen in css*/
 .hi2/*:hover*/ {
 	/*-webkit-transform: rotate(-10deg);
      -moz-transform: rotate(-10deg);
