@@ -1,0 +1,58 @@
+h1, h2, h3 {
+	font-family: "VertigoFLF", sans-serif; /*-sans-serif ist die alternative, falls die font nicht geladen wird, mehrere hintereinander geht auch, die werden nacheinander geladen*/
+	font-size: 60px;
+	margin: 0;
+
+}
+
+/*image width in css ändern: gilt für ALLE imgs! weil alle bilder den tag img haben. in html direkt daneben schreiben*/
+
+/*img {}*/
+
+.images{
+
+	width: 300px;
+	height: 300px;
+	background: #ff961a;
+} /*so kann man die klasse in div/images ansprechen, also mehrere elemente einer def. klasse (container!!)*/
+
+
+header { 
+
+background-color: black;
+color: white;
+padding: 20px;
+margin: 20px;
+padding-right: 0px;
+padding-top: 20px;
+margin-top: -10px;
+margin-right: -10px;
+margin-left: -10px;
+
+
+ }
+
+ body {background: #ff961a;}
+
+
+.hi {margin-top: 40px;
+ 	margin-left: 50px;}/*man muss dem element ne klasse geben um das element aufzurufen in css*/
+.hi2/*:hover*/ {
+	/*-webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);*/
+          margin-left: -50px;
+		margin-bottom: -30px;}
+
+
+ p { 
+ 	padding: 20px;
+ 	font-size: 30px;
+ 	color: white;
+   font-family: "VertigoFLF"}
+
+
+
+
